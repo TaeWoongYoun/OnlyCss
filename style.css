@@ -232,17 +232,150 @@ header{
 .con1{
     width: 400px;
     height: 200px;
-    background-color: darkcyan;
+    background-color: aliceblue;
 }
+
+.name{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.name > a{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.Notice > ul > li{
+    width: 400px;
+    height: 42.5px;
+    padding: 8px 5px;
+    border: #000000 1px solid;
+}
+
+
+.Notice > ul > div > label > li{
+    width: 400px;
+    height: 42.5px;
+    padding: 8px 5px;
+}
+
+.Notice > ul > li > span{
+    float: right;
+    margin-top: -20px;
+}
+
+.Notice > ul > div > label > li > span{
+    float: right;
+    margin-top: -20px;
+}
+
+
+.Notice > ul > li:nth-child(2n) {
+    background-color: darkblue;
+}
+
+.N2{
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.Notice > ul > li:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+.N1{
+    color: darkblue;
+    font-weight: 700;
+}
+
 
 .con2{
     width: 400px;
     height: 200px;
-    background-color: darkgreen;
+    background-color: aliceblue;
+}
+
+.name2{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.name2 > a{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.btn{
+    background: linear-gradient(to bottom, darkblue, black);
+    height: 170px;
+}
+
+button{
+    width: 90px;
+    height: 90px;
+    background-color: aliceblue;
+    color: darkblue;
+    font-size: 28px;
+    font-weight: 700;
+    border: #000000 3px solid;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
 }
 
 .con3{
     width: 400px;
     height: 200px;
-    background-color: darkolivegreen;
+    background-color: aliceblue;
+
+}
+
+.name3{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.name3 > a{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.text{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 150px;
+    background-color: #000000;
+
+}
+
+.text > p {
+    color: aliceblue;
+    background-color: #000000;
+    font-size: 28px;
 }
