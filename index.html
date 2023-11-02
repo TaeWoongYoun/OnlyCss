@@ -4,19 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css 웹디자인기능사 실기</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    
-    </header>
-    <div class="Slide">
+    <main>
+        <header>
+            <div class="logo">
+                <li><a href="#">Logo</a></li>
+            </div>
+            <div class="Menu">
+                <ul>
+                    <li><a href="#">FirstMenu</a>
+                        <ul>
+                            <li>subMenu</li>
+                            <li>subMenu2</li>
+                            <li>subMenu3</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">SecondMenu</a>
+                        <ul>
+                            <li>subMenu</li>
+                            <li>subMenu2</li>
+                            <li>subMenu3</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ThirdMenu</a>
+                        <ul>
+                            <li>subMenu</li>
+                            <li>subMenu2</li>
+                            <li>subMenu3</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ForthMenu</a>
+                        <ul>
+                            <li>subMenu</li>
+                            <li>subMenu2</li>
+                            <li>subMenu3</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="such">
+                <input type="text" placeholder="Enter search terms">
+            </div>
+        </header>
+        <div class="Slide">
+            <div class="slider">
+                <!-- 캐러셀영역 -->
+                <div class="slides">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" checked="checked">
+                    <div id="slide1">
+                    <li>FirstPage</li>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true">
+                    <div id="slide2">
+                    <li>SecondPage</li>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true">
+                    <div id="slide3">
+                    <li>ThirdPage</li>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true">
+                    <div id="slide4">
+                    <li>ForthPage</li>
+                    </div>
+                    <label for="carousel-4" class="carousel-control prev control-1">prev</label>
+                    <label for="carousel-2" class="carousel-control next control-1">next</label>
+                    <label for="carousel-1" class="carousel-control prev control-2">prev</label>
+                    <label for="carousel-3" class="carousel-control next control-2">next</label>
+                    <label for="carousel-2" class="carousel-control prev control-3">prev</label>
+                    <label for="carousel-4" class="carousel-control next control-3">next</label>
+                    <label for="carousel-3" class="carousel-control prev control-4">prev</label>
+                    <label for="carousel-1" class="carousel-control next control-4">next</label>
+                </div>
+                <!-- 버튼영역 -->
+                <!-- <a href="#slide1">1</a>
+                <a href="#slide2">2</a>
+                <a href="#slide3">3</a>
+                <a href="#slide4">4</a> -->
+            </div>
+        <div class="content">
+            <div class="con1">
+                
+            </div>
+            <div class="con2">
 
-    </div>
-    <div class="content">
+            </div>
+            <div class="con3">
 
-    </div>
-    <footer>
+            </div>
+        </div>
+        <footer>
+            <div class="footerMenu">
 
-    </footer>
+            </div>
+            <div class="Copyright">
+
+            </div>
+            <div class="family">
+
+            </div>
+        </footer>
 </body>
 </html>
