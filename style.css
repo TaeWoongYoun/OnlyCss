@@ -286,7 +286,7 @@ header{
     font-weight: 700;
 }
 
-.Notice > ul > li:nth-child(odd) {
+.Notice > ul > li:nth-child(3n) {
     background-color: aliceblue;
 }
 
