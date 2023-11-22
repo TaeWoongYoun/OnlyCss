@@ -145,7 +145,7 @@ header{
     border-radius: 10px;
     border: #eee 2px solid;
 }
-  
+
 .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -258,25 +258,24 @@ header{
     border: #000000 1px solid;
 }
 
-
-.Notice > ul > div > label > li{
+/* .Notice > ul > div > label > li{
     width: 400px;
     height: 42.5px;
     padding: 8px 5px;
-}
+} */
 
 .Notice > ul > li > span{
     float: right;
     margin-top: -20px;
 }
 
-.Notice > ul > div > label > li > span{
+/* .Notice > ul > div > label > li > span{
     float: right;
     margin-top: -20px;
-}
+} */
 
 
-.Notice > ul > li:nth-child(2n) {
+.Notice > ul > li:nth-child(even) {
     background-color: darkblue;
 }
 
@@ -285,7 +284,7 @@ header{
     font-weight: 700;
 }
 
-.Notice > ul > li:nth-child(3n) {
+.Notice > ul > li:nth-child(odd) {
     background-color: aliceblue;
 }
 
