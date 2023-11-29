@@ -135,11 +135,11 @@ header{
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 }
-  
+
 .slides::-webkit-scrollbar {
     height: 10px;
 }
-  
+
 .slides::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 10px;
